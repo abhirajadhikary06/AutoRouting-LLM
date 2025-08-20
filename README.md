@@ -86,6 +86,7 @@
 
   * **Metric**: % of toxic or biased outputs
   * **Rationale**: Prevents unsafe routing for sensitive prompts
+---
 
 ### 6. Hugging Face Public Leaderboard
   * **Link**: https://tinyurl.com/26gprlkk
