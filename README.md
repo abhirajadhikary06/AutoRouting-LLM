@@ -90,6 +90,13 @@
 
 ### 6. Hugging Face Public Leaderboard
   * **Link**: https://tinyurl.com/26gprlkk
+   - **MMLU-Pro (Massive Multitask Language Understanding - Pro)**: Accuracy (%) on an upgraded version of MMLU with 57 subjects, but harder questions, more answer choices (10 instead of 4), and anti-contamination measures.
+   - **GPQA (Graduate-Level Google-Proof Q&A)**: Accuracy on expert-level, non-Googleable questions in physics, chemistry, and biology (diamond subset for high difficulty).
+   - **BBH (Big-Bench Hard)**: Accuracy on 23 challenging tasks from Big-Bench (e.g., logical deduction, commonsense reasoning), using few-shot chain-of-thought prompting.
+   - **MuSR (Multi-Step Soft Reasoning)**: Accuracy on multi-step reasoning tasks, including murder mysteries, algebra word problems, and object counting, emphasizing step-by-step logic.
+   - **IFEval (Instruction-Following Evaluation)**: % of verifiable instructions followed (e.g., "write exactly 3 sentences"), using 500+ prompts at strict and loose levels.
+   - **Parameters (Model Size)**: Number of parameters (e.g., 7B, 70B).
+   - **Mixture of Experts (MoE)**: Yes/No indicator for MoE architecture.
 
 ## Roughly Selected Models
   Models mentioned here are selected on the basis of parameters they are trained on, large models are the best suited for Large Language Communication, Coding, Vision, Embedding, MoE, Lightweight
