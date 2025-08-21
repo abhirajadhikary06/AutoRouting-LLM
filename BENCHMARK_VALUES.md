@@ -34,3 +34,5 @@ Here are the benchmark values from [Hugging Face Open LLM Leaderboard](https://t
 | Nomic-Embed-Text-v2-moe (475m)          | [Nomic-Embed-Text-v2](https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe?utm_source=chatgpt.com)        | 768  |      | 512   |  yes  |
 | BGE-M3 (568m) | [BGE-M3](https://huggingface.co/BAAI/bge-m3/discussions/60?utm_source=chatgpt.com) | 76.20  | 90.2     | bfloat16  | Yes |
 | All-MiniLM-L6-v2 (23m)              | [ll-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)     | 62.20   | 67.80       | float16      | No  |
+
+**
