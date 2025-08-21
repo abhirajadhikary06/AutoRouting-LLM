@@ -36,3 +36,12 @@ Here are the benchmark values from [Hugging Face Open LLM Leaderboard](https://t
 | All-MiniLM-L6-v2 (23m)              | [ll-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)     | 62.20   | 67.80       | float16      | No  |
 
 **
+
+## Mixture-of-Experts (MoE) Models
+| Model Name  | Model Link | MMLU | BBH | C-Eval | CMMLU | HumanEval | MBPP | GSM8K | Math | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
+|-------------|------------|------|-----|--------|-------|-----------|------|-------|------|-----------|---------------------|--------------------|--------------------|-----|
+| mixtral (8x22b) | [Mixtral-8x22B-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1) | 77.80 | 78.40 | 60.00 | 61.00 | 75.00 | 64.40 | 87.90 | 49.80 | float16  | 8x7B  | N/A  | 8x22B | Yes |
+| deepseek-v2 (236b) | [DeepSeek-V2](https://huggingface.co/deepseek-ai/DeepSeek-V2) | 78.40 | 81.30 | 80.90 | 82.40 | 76.80 | 70.40 | 90.80 | 52.70 | bfloat16 | 16B   | N/A  | 236B  | Yes |
+
+
+*The data for Mixture-of-Experts (MoE) models are incurred from [HuggingFace-Deepseek-V2](https://huggingface.co/deepseek-ai/DeepSeek-V2) and [HuggingFace-Mixtral](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1)*
