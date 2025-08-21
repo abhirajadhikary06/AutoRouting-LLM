@@ -1,5 +1,5 @@
 # Benchmark Values
-Here are the benchmark values from [Hugging Face Open LLM Leaderboard](https://tinyurl.com/2cumu2v8) of the models listed in [README.md](https://github.com/abhirajadhikary06/AutoRouting-LLM/blob/main/README.md) file.
+Here are the benchmark values from various authentic sources for the models listed in [README.md](https://github.com/abhirajadhikary06/AutoRouting-LLM/blob/main/README.md) file.
 
 ## Large Language Communication Models
 | Model Name   | Model Link                                                               | MMLU-Pro | GPQA  | BBH   | MuSR  | IFEval | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
