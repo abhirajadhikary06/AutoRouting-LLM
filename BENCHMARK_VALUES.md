@@ -15,4 +15,4 @@ Here are the benchmark values from [Hugging Face Open LLM Leaderboard](https://t
 |------------------------------|---------------------------------------------------------------------------|--------|-----------|-----------|--------------------|--------------------|--------------------|-----|
 | qwen2.5-coder (32b)          | [Qwen2.5-Coder-32B](https://huggingface.co/Qwen/Qwen2.5-Coder-32B)        | 47.81  | 12.86     | float16   | 7B                 | 14B                | 32B                | No  |
 | deepseek-coder-v2-lite (16b) | [DeepSeek-Coder-V2-Lite](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base) | N/A  | N/A     | bfloat16  | 16B                | N/A                | 236B               | Yes |
-| codellama (70b)              | [CodeLlama-70b-hf](https://huggingface.co/codellama/CodeLlama-70b-hf)     | N/A    | N/A       | N/A       | 7B                | 34B                | 70B                | No  |
+| codellama-instruct (70b)              | [CodeLlama-70b-Instruct-hf](https://huggingface.co/codellama/CodeLlama-70b-Instruct-hf)     | 62.40    | 53.00       | N/A       | 7B                | 34B                | 70B                | No  |
