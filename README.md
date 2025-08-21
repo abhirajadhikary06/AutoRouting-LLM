@@ -112,6 +112,7 @@
 
   ### Multimodal/Vision Models
   - **llava (7B)**: End-to-end multimodal for vision-language; benchmark on VQA if adding image prompts (8.7M pulls).
+  - **llama3.2-vision (90B)**: Latest large-scale multimodal model; benchmark for advanced visual reasoning and high-parameter hybrid tasks (new release, suitable for complex image-text prompts).
   - **qwen2.5vl (7B)**: Flagship VL model; test for visual reasoning in hybrid prompts (484.2K pulls, updated 3 months ago).
 
   ### Embedding Models
