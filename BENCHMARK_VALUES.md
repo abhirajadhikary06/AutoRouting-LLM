@@ -35,7 +35,7 @@ Here are the benchmark values from [Hugging Face Open LLM Leaderboard](https://t
 | BGE-M3 (569m)                  | [BGE-M3](https://bge-model.com/bge/bge_m3.html)                                   | 1024                | N/A               | N/A                | 569M                  | 256                         | No  |
 | All-MiniLM-L6-v2 (23m)         | [All-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) | 384                 | N/A               | N/A                  | 23M                  | 256–512                          | No  |
 
-**
+*The data for Embedding models are incurred from [prompt-nomic-embed-text-v2-moe](https://www.promptlayer.com/models/nomic-embed-text-v2-moe), [milvus-All-MiniLM](https://milvus.io/ai-quick-reference/what-is-the-typical-dimensionality-of-sentence-embeddings-produced-by-sentence-transformer-models) and[stackoverflow-All-MiniLM](https://stackoverflow.com/questions/75901231/how-can-i-make-sentence-bert-throw-an-exception-if-the-text-exceeds-max-seq-leng)*
 
 ## Mixture-of-Experts (MoE) Models
 | Model Name  | Model Link | MMLU | BBH | C-Eval | CMMLU | HumanEval | MBPP | GSM8K | Math | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
