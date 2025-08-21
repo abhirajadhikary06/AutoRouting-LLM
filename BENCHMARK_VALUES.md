@@ -26,7 +26,7 @@ Here are the benchmark values from [Hugging Face Open LLM Leaderboard](https://t
 | llama3.2-vision (90b) | [Llama-3.2-90B-Vision](https://huggingface.co/meta-llama/Llama-3.2-90B-Vision) | 60.30  | 45.20     | 78.10  | 57.30      | 90.10    | bfloat16  | 3B                | 11B                | 90B               | No |
 | qwen2.5vl-instruct (72b) | [Qwen2.5-VL-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct) | 70.20  | 51.10    | 84.90  | 74.80      | 96.40    | auto      | 7B                | 32B                | 72B | No |
 
-*The data for Multimodal/Vision models are incurred from [Llava1.5-Documentation(1)](https://arxiv.org/pdf/2411.10440), [Llava-Documentation(2)](https://arxiv.org/pdf/2310.03744), [Meta](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices), [HuggingFace-Qwen2.5VL](https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct#image-benchmark)*
+*The data for Multimodal/Vision models are incurred from [Llava1.5-Documentation(1)](https://arxiv.org/pdf/2411.10440), [Llava-Documentation(2)](https://arxiv.org/pdf/2310.03744), [Llava-Documentation(3)](https://arxiv.org/html/2503.15621v1), [Meta](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices), [HuggingFace-Qwen2.5VL](https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct#image-benchmark)*
 
 ## Embedding Models
 | Model Name                   | Model Link                                                                 | Embedding Dimension   | HumanEval | Maximum Sequence Length(tokens) | MoE |
