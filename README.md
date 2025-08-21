@@ -88,8 +88,8 @@
   * **Rationale**: Prevents unsafe routing for sensitive prompts
 ---
 
-### 6. Hugging Face Public Leaderboard
-  * **Link**: https://tinyurl.com/26gprlkk
+### 6. Hugging Face Open LLM Leaderboard
+  * **Link to Open LLM Leaderboard**: https://tinyurl.com/26gprlkk
    - **MMLU-Pro (Massive Multitask Language Understanding - Pro)**: Accuracy (%) on an upgraded version of MMLU with 57 subjects, but harder questions, more answer choices (10 instead of 4), and anti-contamination measures.
    - **GPQA (Graduate-Level Google-Proof Q&A)**: Accuracy on expert-level, non-Googleable questions in physics, chemistry, and biology (diamond subset for high difficulty).
    - **BBH (Big-Bench Hard)**: Accuracy on 23 challenging tasks from Big-Bench (e.g., logical deduction, commonsense reasoning), using few-shot chain-of-thought prompting.
