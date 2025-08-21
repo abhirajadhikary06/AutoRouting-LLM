@@ -13,6 +13,6 @@ Here are the benchmark values from [Hugging Face Open LLM Leaderboard](https://t
 ## Coding Models
 | Model Name                   | Model Link                                                                 | MBPP   | HumanEval | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
 |------------------------------|---------------------------------------------------------------------------|--------|-----------|-----------|--------------------|--------------------|--------------------|-----|
-| qwen2.5-coder (32b)          | [Qwen2.5-Coder-32B](https://huggingface.co/Qwen/Qwen2.5-Coder-32B)        | 47.81  | 12.86     | float16   | 7B                 | 14B                | 32B                | No  |
-| deepseek-coder-v2-lite (16b) | [DeepSeek-Coder-V2-Lite](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base) | N/A  | N/A     | bfloat16  | 16B                | N/A                | 236B               | Yes |
+| qwen2.5-coder-Instruct (32b)           | [Qwen2.5-Coder-32B](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct)        | 76.4  | 65.9     | float16   | 7B                 | 14B                | 32B                | No  |
+| deepseek-coder-v2-Instruct (16b) | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | N/A  | N/A     | bfloat16  | 16B                | N/A                | 236B               | Yes |
 | codellama (70b)              | [CodeLlama-70b-hf](https://huggingface.co/codellama/CodeLlama-70b-hf)     | N/A    | N/A       | N/A       | 7B                | 34B                | 70B                | No  |
