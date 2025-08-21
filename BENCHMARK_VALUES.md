@@ -29,10 +29,10 @@ Here are the benchmark values from [Hugging Face Open LLM Leaderboard](https://t
 *The data for Multimodal/Vision models are incurred from [Llava1.5-Documentation(1)](https://arxiv.org/pdf/2411.10440), [Llava-Documentation(2)](https://arxiv.org/pdf/2310.03744), [Meta](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices), [HuggingFace-Qwen2.5VL](https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct#image-benchmark)*
 
 ## Embedding Models
-| Model Name                   | Model Link                                                                 | Embedding Dimension   | HumanEval | Maximum Sequence Length(tokens) | MoE |
-|------------------------------|---------------------------------------------------------------------------|--------|-----------|-----------|--------------------|--------------------|--------------------|-----|
-| Nomic-Embed-Text-v2-moe (475m)          | [Nomic-Embed-Text-v2](https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe?utm_source=chatgpt.com)        | 768  |      | 512   |  yes  |
-| BGE-M3 (568m) | [BGE-M3](https://huggingface.co/BAAI/bge-m3/discussions/60?utm_source=chatgpt.com) | 76.20  | 90.2     | bfloat16  | Yes |
-| All-MiniLM-L6-v2 (23m)              | [ll-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)     | 62.20   | 67.80       | float16      | No  |
+| Model Name                         | Model Link                                                                                            | Embedding Dimension | Model Size (Parameters) | Maximum Sequence Length (tokens) | MoE |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------- | ----------------------- | -------------------------------- | --- |
+| Nomic-Embed-Text-v2-moe (475m) | [Nomic-Embed-Text-v2](https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe?utm_source=chatgpt.com) | 768 (256 opt.)      | 475m (305 active)      | 512                              | Yes |
+| BGE-M3 (569m)                  | [BGE-M3](https://bge-model.com/bge/bge_m3.html?utm_source=chatgpt.com)                    | 1024                | 569m                  | 8192                             | No  |
+| All-MiniLM-L6-v2 (23m)         | [All-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)                     | 384                 | 23m                   | 256–512                          | No  |
 
 **
