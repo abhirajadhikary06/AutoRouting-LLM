@@ -17,9 +17,11 @@ Here are the benchmark values from [Hugging Face Open LLM Leaderboard](https://t
 | deepseek-coder-v2-instruct (16b) | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 76.20  | 90.2     | bfloat16  | 16B                | N/A                | 236B               | Yes |
 | codellama-instruct (70b)              | [CodeLlama-70b-Instruct-hf](https://huggingface.co/codellama/CodeLlama-70b-Instruct-hf)     | 62.20   | 67.80       | float16       | 7B                | 34B                | 70B                | No  |
 
+*The data for Coding models are incurred from [Qwenlm](https://qwenlm.github.io/blog/qwen2.5-coder-family), [Deepseek Github](https://github.com/deepseek-ai/DeepSeek-Coder), [Meta](https://ai.meta.com/blog/code-llama-large-language-model-coding)*
+
 ## Multimodal/Vision Models
-| Model Name  | Model Link                                                                 | MBPP   | HumanEval | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
+| Model Name  | Model Link | MMMU  | MMMU-Pro | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
 |------------------------------|---------------------------------------------------------------------------|--------|-----------|-----------|--------------------|--------------------|--------------------|-----|
-| llava (7b) | [llava-1.5-7b-hf](https://huggingface.co/llava-hf/llava-1.5-7b-hf)        | 47.81  | 12.86     | float16   | N/A                | N/A                | 7B                | No  |
-| llama3.2-vision (90b) | [Llama-3.2-90B-Vision](https://huggingface.co/meta-llama/Llama-3.2-90B-Vision) | N/A  | N/A     | bfloat16  | 3B                | 11B                | 90B               | No |
-| qwen2.5vl (72b) | [Qwen2.5-VL-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct) | N/A  | N/A     | auto  | 7B                | 32B                | 72B               | No |
+| llava (7b) | [llava-1.5-7b-hf](https://huggingface.co/llava-hf/llava-1.5-7b-hf)        | 34.20  | N/A     | float16   | N/A                | N/A                | 7B                | No  |
+| llama3.2-vision (90b) | [Llama-3.2-90B-Vision](https://huggingface.co/meta-llama/Llama-3.2-90B-Vision) | 86.00  | 42.30     | bfloat16  | 3B                | 11B                | 90B               | No |
+| qwen2.5vl (72b) | [Qwen2.5-VL-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct) | 70.20  | 51.10     | auto  | 7B                | 32B                | 72B               | No |
