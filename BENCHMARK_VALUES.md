@@ -9,10 +9,8 @@ Here are the benchmark values from [Hugging Face Open LLM Leaderboard](https://t
 | hermes-3 (70b) | [Hermes-3-Llama-3.1-70B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B) | 41.41    | 14.88  | 53.77 | 23.43 | 76.61  | bfloat16  | 8B                 | 70B                | 405B               | No  |
 
 ## Coding Models
-| Model Name   | Model Link                                                               | MMLU-Pro | GPQA  | BBH   | MuSR  | IFEval | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
-|--------------|-------------------------------------------------------------------------|----------|-------|-------|-------|--------|-----------|--------------------|--------------------|--------------------|-----|
-| qwen2.5-coder (32b)    | [Qwen2.5-Coder-32B](https://huggingface.co/Qwen/Qwen2.5-Coder-32B) | 47.81    | 12.86 | 48.51 | 15.87 | 43.63  | float16  | 7B                 | 14B                | 32B               | No  |
-| deepseek-coder-v2-lite (16b) | [DeepSeek-Coder-V2-Lite](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base) | 60.10    | 31.90 | 61.2 | N/A | N/A  | bfloat16  | 16B                 | N/A                | 236B               | Yes  |
-| codellama (70b) | [CodeLlama-70b-hf](https://huggingface.co/codellama/CodeLlama-70b-hf) | N/A   | N/A  | N/A | N/A | N/A  | N/A  | N/A                 | N/A                | 70B               | No  |
-
-*For deepseek-coder-v2-lite referred linkes are [Artificial Analysis](https://artificialanalysis.ai/models/deepseek-coder-v2-lite) and [Deepseek Paper Pdf](https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/paper.pdf)*
+| Model Name                   | Model Link                                                                 | MBPP   | HumanEval | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
+|------------------------------|---------------------------------------------------------------------------|--------|-----------|-----------|--------------------|--------------------|--------------------|-----|
+| qwen2.5-coder (32b)          | [Qwen2.5-Coder-32B](https://huggingface.co/Qwen/Qwen2.5-Coder-32B)        | 47.81  | 12.86     | float16   | 7B                 | 14B                | 32B                | No  |
+| deepseek-coder-v2-lite (16b) | [DeepSeek-Coder-V2-Lite](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base) | 60.10  | 31.90     | bfloat16  | 16B                | N/A                | 236B               | Yes |
+| codellama (70b)              | [CodeLlama-70b-hf](https://huggingface.co/codellama/CodeLlama-70b-hf)     | N/A    | N/A       | N/A       | N/A                | N/A                | 70B                | No  |
