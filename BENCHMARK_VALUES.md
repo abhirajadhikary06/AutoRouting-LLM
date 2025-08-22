@@ -45,3 +45,12 @@ Here are the benchmark values from various authentic sources for the models list
 
 
 *The data for Mixture-of-Experts (MoE) models are incurred from [HuggingFace-Deepseek-V2](https://huggingface.co/deepseek-ai/DeepSeek-V2) and [HuggingFace-Mixtral](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1)*
+
+## Small/Lightweight models (<5B)
+| Model Name                | Model Link                                                                 | MMLU-Pro | BBH   | MUSR  | IFEval | MATH  | GPQA  | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
+|---------------------------|----------------------------------------------------------------------------|----------|-------|-------|--------|-------|-------|-----------|--------------------|--------------------|--------------------|-----|
+| phi3.5-mini-instruct      | [Phi-3.5-mini-instruct](https://huggingface.co/microsoft/Phi-3.5-mini-instruct)      | 32.91    | 36.75 | 10.10 | 57.75  | 19.64 | 11.97 | auto      | N/A                | N/A                | 3.8B               | No |
+| smollm2-instruct (1.7b)   | [SmolLM2-1.7B-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct) | 11.71    | 10.92 | 4.10  | 53.68  | 5.82  | 3.91  | bfloat16  | 135M               | 360M               | 1.7B               | No  |
+| granite3.1-moe (1.7b)   | [SmolLM2-1.7B-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct) | 28.20    | 34.10 | 19.00  | 72.10  | 21.70  | 8.30  | bfloat16  | 800M               | 2B               | 8B               | No  |
+
+*The data for Small/Lightweight models are incurred from [HuggingFace-Smollm2](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct), [HuggingFace-Phi3.5](https://huggingface.co/microsoft/Phi-3.5-mini-instruct), [HuggingFace-OpenLLM-Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) and [Granite3.1-Github](https://github.com/ibm-granite/granite-3.1-language-models)*
