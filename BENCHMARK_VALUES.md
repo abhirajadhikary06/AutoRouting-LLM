@@ -9,6 +9,7 @@ Here are the benchmark values from various authentic sources for the models list
 | hermes-3 (70b) | [Hermes-3-Llama-3.1-70B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B) | 41.41    | 14.88  | 53.77 | 23.43 | 76.61  | bfloat16  | 8B                 | 70B                | 405B               | No  |
 
 *The data for Large Language Communication model are incurred form [Hugging Face Open LLM Leaderboard](https://tinyurl.com/2cumu2v8)*
+- **Large Language Communication Models**: [communication-models.png](https://github.com/abhirajadhikary06/AutoRouting-LLM/blob/main/benchmark_images/communication-models.png)
 
 ## Coding Models
 | Model Name                   | Model Link                                                                 | MBPP   | HumanEval | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
@@ -19,6 +20,8 @@ Here are the benchmark values from various authentic sources for the models list
 
 *The data for Coding models are incurred from [Qwenlm](https://qwenlm.github.io/blog/qwen2.5-coder-family), [Deepseek Github](https://github.com/deepseek-ai/DeepSeek-Coder), [Meta](https://ai.meta.com/blog/code-llama-large-language-model-coding)*
 
+- **Coding Models**: [coding-models.png](https://github.com/abhirajadhikary06/AutoRouting-LLM/blob/main/benchmark_images/coding-models.png)
+
 ## Multimodal/Vision (Image Specific) Models
 | Model Name  | Model Link | MMMU  | MMMU-Pro | VQAv2 | MathVista | DocVQA | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
 |------------------------------|---------------------------------------------------------------------------|--------|-----------|-------|-----------|--------|-----------|--------------------|--------------------|--------------------|-----|
@@ -27,6 +30,8 @@ Here are the benchmark values from various authentic sources for the models list
 | qwen2.5vl-instruct (72b) | [Qwen2.5-VL-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct) | 70.20  | 51.10    | 84.90  | 74.80      | 96.40    | auto      | 7B                | 32B                | 72B | No |
 
 *The data for Multimodal/Vision models are incurred from [Llava1.5-Documentation(1)](https://arxiv.org/pdf/2411.10440), [Llava-Documentation(2)](https://arxiv.org/pdf/2310.03744), [Llava-Documentation(3)](https://arxiv.org/html/2503.15621v1), [Meta](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices), [HuggingFace-Qwen2.5VL](https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct#image-benchmark)*
+
+- **Multimodal/Vision Models**: [multimodal/vision-models.png](https://github.com/abhirajadhikary06/AutoRouting-LLM/blob/main/benchmark_images/multimodal-vision-models.png)
 
 ## Embedding Models
 | Model Name                     | Model Link                                                                        | Embedding Dimension | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | Maximum Sequence Length (tokens) | MoE |
@@ -37,14 +42,17 @@ Here are the benchmark values from various authentic sources for the models list
 
 *The data for Embedding models are incurred from [prompt-nomic-embed-text-v2-moe](https://www.promptlayer.com/models/nomic-embed-text-v2-moe), [milvus-All-MiniLM](https://milvus.io/ai-quick-reference/what-is-the-typical-dimensionality-of-sentence-embeddings-produced-by-sentence-transformer-models) and[stackoverflow-All-MiniLM](https://stackoverflow.com/questions/75901231/how-can-i-make-sentence-bert-throw-an-exception-if-the-text-exceeds-max-seq-leng)*
 
+- **Embedding Models**: [embedding-models.png](https://github.com/abhirajadhikary06/AutoRouting-LLM/blob/main/benchmark_images/communication-models.png)
+
 ## Mixture-of-Experts (MoE) Models
 | Model Name  | Model Link | MMLU | BBH | C-Eval | CMMLU | HumanEval | MBPP | GSM8K | Math | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
 |-------------|------------|------|-----|--------|-------|-----------|------|-------|------|-----------|---------------------|--------------------|--------------------|-----|
 | mixtral (8x22b) | [Mixtral-8x22B-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1) | 77.80 | 78.40 | 60.00 | 61.00 | 75.00 | 64.40 | 87.90 | 49.80 | float16  | 8x7B  | N/A  | 8x22B | Yes |
 | deepseek-v2 (236b) | [DeepSeek-V2](https://huggingface.co/deepseek-ai/DeepSeek-V2) | 78.40 | 81.30 | 80.90 | 82.40 | 76.80 | 70.40 | 90.80 | 52.70 | bfloat16 | 16B   | N/A  | 236B  | Yes |
 
-
 *The data for Mixture-of-Experts (MoE) models are incurred from [HuggingFace-Deepseek-V2](https://huggingface.co/deepseek-ai/DeepSeek-V2) and [HuggingFace-Mixtral](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1)*
+
+- **Mixture-of-Experts Models**: [mixture-of-expert-models.png](https://github.com/abhirajadhikary06/AutoRouting-LLM/blob/main/benchmark_images/mixture-of-experts-models.png)
 
 ## Small/Lightweight models (<5B)
 | Model Name                | Model Link                                                                 | MMLU-Pro | BBH   | MUSR  | IFEval | MATH  | GPQA  | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
@@ -54,3 +62,5 @@ Here are the benchmark values from various authentic sources for the models list
 | granite3.1-moe (1.7b)   | [SmolLM2-1.7B-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct) | 28.20    | 34.10 | 19.00  | 72.10  | 21.70  | 8.30  | bfloat16  | 800M               | 2B               | 8B               | No  |
 
 *The data for Small/Lightweight models are incurred from [HuggingFace-Smollm2](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct), [HuggingFace-Phi3.5](https://huggingface.co/microsoft/Phi-3.5-mini-instruct), [HuggingFace-OpenLLM-Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) and [Granite3.1-Github](https://github.com/ibm-granite/granite-3.1-language-models)*
+
+- **Small/Lightweight Models**: [small/lightweight-models.png](https://github.com/abhirajadhikary06/AutoRouting-LLM/blob/main/benchmark_images/small-lightweight-models.png)
