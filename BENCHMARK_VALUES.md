@@ -42,7 +42,7 @@ Here are the benchmark values from various authentic sources for the models list
 
 *The data for Embedding models are incurred from [prompt-nomic-embed-text-v2-moe](https://www.promptlayer.com/models/nomic-embed-text-v2-moe), [milvus-All-MiniLM](https://milvus.io/ai-quick-reference/what-is-the-typical-dimensionality-of-sentence-embeddings-produced-by-sentence-transformer-models) and[stackoverflow-All-MiniLM](https://stackoverflow.com/questions/75901231/how-can-i-make-sentence-bert-throw-an-exception-if-the-text-exceeds-max-seq-leng)*
 
-- **Embedding Models**: [embedding-models.png](https://github.com/abhirajadhikary06/AutoRouting-LLM/blob/main/benchmark_images/communication-models.png)
+- **Embedding Models**: N/A
 
 ## Mixture-of-Experts (MoE) Models
 | Model Name  | Model Link | MMLU | BBH | C-Eval | CMMLU | HumanEval | MBPP | GSM8K | Math | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
