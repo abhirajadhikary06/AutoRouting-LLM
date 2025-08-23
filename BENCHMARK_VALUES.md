@@ -1,5 +1,5 @@
 # Benchmark Values
-Here are the benchmark values from various authentic sources for the models listed in [README.md](https://github.com/abhirajadhikary06/AutoRouting-LLM/blob/main/README.md) file. Benchmark Graphical data of all LLMs can be found [here]()
+Here are the benchmark values from various authentic sources for the models listed in [README.md](https://github.com/abhirajadhikary06/AutoRouting-LLM/blob/main/README.md) file. Benchmark Graphical data of all LLMs can be found [here](https://github.com/abhirajadhikary06/AutoRouting-LLM/blob/main/Benchmark%20of%20All%20LLMs.pdf)
 
 ## Large Language Communication Models
 | Model Name   | Model Link                                                               | MMLU-Pro | GPQA  | BBH   | MuSR  | IFEval | Precision | Parameters <br>Low | Parameters <br>Mid | Parameters <br>Max | MoE |
